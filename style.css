@@ -20,8 +20,8 @@ header {
 
 .principal {
     padding: 3em 0;
-    background: #FEFEFE;
-    width: 940px;
+    background: #f53b3b9f;
+    940px; width:
     margin: 0 auto;
 }
 
@@ -241,7 +241,7 @@ td, th {
 
 .mapa {
     padding: 3em 0;
-    background-color: linear-gradient(#FEFEFE, #888888);
+    background-color: linear-gradient(#f00606d2, #888888);
 }
 
 .mapa p {

@@ -310,4 +310,15 @@ img ~ p {
     .imagem-beneficios {
         width: 100%;
     }
+
+}
+.produto-descricao,
+.Serviços-descricao,
+.lista-beneficios li,
+.mapa p,
+form label,
+form legend {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }

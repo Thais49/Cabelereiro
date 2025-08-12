@@ -306,3 +306,21 @@ img ~ p {
     }
 
 }
+:root {
+    --cor-azul: #7779ff;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px; /* espessura da linha */
+    background-color: var(--cor-azul);
+    transform: translateY(-50%);

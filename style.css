@@ -326,7 +326,7 @@ img ~ p {
 }
 
 :root {
-    --cor-azul: #7779ff;
+    --cor-azul: #fe6fff;
 }
 
 .img-container {
@@ -363,3 +363,4 @@ img ~ p {
         background-color: var(--cor-azul);
 
     }
+

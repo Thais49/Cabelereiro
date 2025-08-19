@@ -31,9 +31,9 @@ header {
 .principal {
     padding: 3em 0;
     background: #ff77eda4;
-    940px;
-    width:
-        margin: 0 auto;
+    background:var (--cor-secundaria);
+    width:940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -78,6 +78,7 @@ nav li {
 nav a {
     text-transform: uppercase;
     color: #000000;
+    color:var (--cor-preto);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -108,11 +109,12 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #7779ff;
-    ;
+    border-color:var (--cor-principal);
 }
 
 .produtos li:active {
     border-color: #088C19;
+    border-color:--cor-rosaescuro
 }
 
 .produtos h2 {
@@ -361,6 +363,7 @@ img ~ p {
         background-color: var(--cor-azul);
 
     }
+
 
 
 

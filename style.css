@@ -1,13 +1,11 @@
 :root {
-      /*cores personalizadas */
-      ~~cor-principal:
-      ~~cor-escuro:
-      ~~cor-secundaria:
-      ~~cor-azulclaro:
-      ~~cor-azulescuro:
-      ~~cor-preto:
-      ~~corbranca:
-}
+    --cor-principal: #ffe6ff;     
+    --cor-escuro: #000000;        
+    --cor-secundaria: #ff77eda4; 
+    --cor-azulclaro: #c486c4;
+    --cor-azulescuro: #7779ff;    
+    --cor-preto: #000000;
+    --cor-branca: #ffffff;
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -363,4 +361,5 @@ img ~ p {
         background-color: var(--cor-azul);
 
     }
+
 

@@ -85,7 +85,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: C78C19;
     text-decoration: underline;
 }
 
@@ -104,6 +104,7 @@ nav a:hover {
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    border:var (--cor-escuro);
     border-radius: 10px;
 }
 
@@ -114,7 +115,7 @@ nav a:hover {
 
 .produtos li:active {
     border-color: #088C19;
-    border-color:--cor-rosaescuro
+    border-color:var (--cor-rosaescuro);
 }
 
 .produtos h2 {
@@ -223,6 +224,8 @@ footer {
     padding: 15px 0;
     background: orange;
     color: white;
+    background:var (--cor-principal);
+    color:var (--cor-branco);
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -243,18 +246,22 @@ table {
 thead {
     background: #555555;
     color: white;
+    background:var (--cor-cinzamédioaescuro);
+    color:var (--cor-branco);
     font-weight: bold;
 }
 
 td,
 th {
     border: 1px solid #000000;
+    border: var (--cor-preto);
     padding: 8px 15px;
 }
 
 .mapa {
     padding: 3em 0;
     background-color: linear-gradient(#e95dc6d2, #888888);
+    background-color:var (--cor-,--cor-cinza);
 }
 
 .mapa p {
@@ -363,6 +370,7 @@ img ~ p {
         background-color: var(--cor-azul);
 
     }
+
 
 
 

@@ -31,9 +31,10 @@ header {
 .principal {
     padding: 3em 0;
     background: #ff77eda4;
-    background:var (--cor-secundaria);
-    width:940px;
+    background:var(--cor-secundaria);
+    width: 100px;px;
     margin: 0 auto;
+      box-sizing: border-box;
 }
 
 .principal p {
@@ -352,7 +353,7 @@ img ~ p {
     background-color: var(--cor-azul);
     transform: translateY(-50%);
 
-    root {
+    :root {
         --cor-azul: #7779ff;
     }
 

@@ -178,18 +178,18 @@ main {}
     opacity: 0.3;
 }
 
-form {
+form-center {
     margin: 40px 0;
 }
 
-form label,
-form legend {
+form-center label,
+form-center legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+form-center input {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;

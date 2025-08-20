@@ -179,25 +179,25 @@ main {}
     opacity: 0.3;
 }
 
-form-center {
+.form-center {
     margin: 40px 0;
 }
 
-form-center label,
+.form-center label,
 form-center legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form-center input {
+.form-center input {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
-form-center input-padrao {
+.form-center input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;

@@ -26,13 +26,14 @@ header {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    width: 100%;
 }
 
 .principal {
     padding: 3em 0;
     background: #ff77eda4;
     background:var(--cor-secundaria);
-    width: 100px;px;
+    width: 940px;px;
     margin: 0 auto;
       box-sizing: border-box;
 }

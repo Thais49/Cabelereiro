@@ -22,20 +22,17 @@ header {
 }
 
 .titulo-principal {
-    text-align: center;
+      text-align: center;
     font-size: 2em;
-    margin: 0 0 1em;
+    margin: 0 0 0em;
     clear: left;
-    width: 100%;
 }
 
 .principal {
     padding: 3em 0;
-    background: #ff77eda4;
-    background:var(--cor-secundaria);
-    width: 940px;px;
+    background: #FEFEFE;
+    width: 940px;
     margin: 0 auto;
-      box-sizing: border-box;
 }
 
 .principal p {

@@ -179,7 +179,7 @@ main {}
 
 .form-center {
     max-width: 600px;
-    margin: 40px 0;
+    margin: 40px auto;
     padding: 30px;
     width: 100%;
 }
@@ -187,19 +187,19 @@ main {}
 .form-center label,
 .form-center legend {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 0 10px;
 }
 
 .form-center input {
-    display: block;
+    display: inline-block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: auto;
 }
 
 .form-center input-padrao {
-    display: block;
+    display: inline-block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 100%;

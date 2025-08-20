@@ -85,25 +85,3 @@ nav a {
 	text-decoration: none;
 
 }
-.conteudo-beneficios {
-    display: flex;              
-    align-items: center;        
-    justify-content: center;    
-    gap: 40px;                  
-    margin: 20px 0;
-}
-
-.lista-beneficios {
-    list-style: none;           
-    padding: 0;
-    font-size: 18px;
-    line-height: 1.8;
-}
-
-.imagem-beneficios {
-    max-width: 350px;   
-    width: 100%;        
-    height: auto;       
-    border-radius: 8px; 
-    box-shadow: 2px 4px 10px rgba(0,0,0,0.3); 
-}

@@ -46,12 +46,7 @@ header {
 .principal em {
     font-style: italic;
 }
-table {
-    width: 50%;
-    margin-bottom: .5em;
-    table-layout: fixed;
-    text-align: center;
-}
+    
 .utensilios {
     width: calc(40% - 26px);
     float: left;
@@ -246,7 +241,10 @@ footer {
 }
 
 table {
+    width: 100%;
     margin: 20px 0 40px;
+    table-layout: fixed;
+    text-align: center;
 }
 
 thead {

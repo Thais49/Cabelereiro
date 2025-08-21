@@ -21,6 +21,11 @@ body {}
 	height: 15vw;
 }
 
+.titulo-inicial {
+	padding-left: 20px;
+	height: 15vw;
+}
+
 .titulo-centralizado {
 	text-align: center
 }

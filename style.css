@@ -3,7 +3,7 @@
     --cor-escuro: #000000;
     --cor-secundaria: #ff77eda4;
     --cor-rosaclaro: #c486c4;
-    --cor-azul: #7779ff;
+    --cor-azul: #945db8;
     --cor-preto: #000000;
     --cor-branca: #ffffff;
 
@@ -31,7 +31,7 @@
     .principal {
         padding: 3em 0;
         background: #ec74c8;
-        width: 1440px;
+        width: 1500px;
         margin: 0 auto;
     }
 

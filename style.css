@@ -3,8 +3,8 @@
     --cor-escuro: #000000;
     --cor-secundaria: #ff77eda4;
     --cor-rosaclaro: #c486c4;
-    --cor-azul: #945db8;
-    --cor-preto: #000000;
+    --cor-azul: #4c4ac4;
+    --cor-roxo: #7715a5;
     --cor-branca: #ffffff;
 
     body {
@@ -30,7 +30,7 @@
 
     .principal {
         padding: 3em 0;
-        background: #ec74c8;
+        background: #7715a5;
         width: 100%;
         margin: 0 auto;
     }
@@ -216,7 +216,7 @@
     }
 
     .copyright {
-        color: #FFFFFF;
+        color: #000000;
         font-size: 13px;
         margin: 20px 0 0;
     }

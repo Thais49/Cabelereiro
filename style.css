@@ -3,7 +3,7 @@
     --cor-escuro: #000000;
     --cor-secundaria: #ff77eda4;
     --cor-rosaclaro: #c486c4;
-    --cor-azul: #4c4ac4;
+    --cor-azul: #030327;
     --cor-roxo: #7715a5;
     --cor-branca: #ffffff;
 
@@ -140,7 +140,8 @@
 
     .beneficios {
         padding: 3em 0;
-        background: #ff2e5b;
+        background: #030327;
+
     }
 
     .conteudo-beneficios {

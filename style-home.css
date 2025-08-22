@@ -51,6 +51,10 @@ em strong {
 	background: #c486c4;
 	padding: 20px;
 }
+  
+.creme {
+  width: 100%;
+}
 
 .beneficios ul {
 	display: inline-block;

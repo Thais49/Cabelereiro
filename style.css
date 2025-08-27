@@ -28,25 +28,6 @@
 
 }
 
-.enviar {
-    width: 40%;
-    padding: 15px 0;
-    background: #896540;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
-}
-
-.enviar:hover {
-    background: rgb(255, 253, 251);
-    transform: scale(1.2);
-}
-
-
 /* SELETORES AVANÇADOS PARA SEREM USADOS
 
 main p {

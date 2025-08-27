@@ -1,4 +1,8 @@
+@import url(styles/header.css)
+@import url(styles/footer.css);
+
 :root {
+   /*cores personalizadas*/
     --cor-principal: #ffe6ff;
     --cor-escuro: #000000;
     --cor-secundaria: #ff77eda4;
@@ -210,9 +214,9 @@
         margin: 20px 0;
     }
 
-    footer {
+  footer {
         text-align: center;
-        background: url("img/bg.jpg");
+        background: url  ("img/bg.jpg");
         padding: 40px 0;
     }
 

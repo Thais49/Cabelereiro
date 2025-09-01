@@ -23,8 +23,8 @@ header {
     margin-right: 10px;
 }
 
-.nome-empresa{
-display:flex
+#nome_empresa{
+display:none;
 }
 
 nav {
@@ -51,12 +51,16 @@ nav {
     }
 
  /* Estilização para Tablets (telas medías)      */
- @media screen and (max-width: 480px)  {  
+ @media screen and (min-width: 480px)  {  
     }
     .nome-empresa{
-    display:inline;
-}
+    display:flex;
+    }
+  
+    nav ul {
+    display: grid;
+  }
 
 /* Estilização para Desktop (telas maiores)    */
-@media screen and (max-width: 1080px)  {
+@media screen and (min-width: 1080px)  {
 }

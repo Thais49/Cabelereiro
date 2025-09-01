@@ -1,3 +1,4 @@
+/* Estilização para telas menores */
 header {
     background: #ffe6ff;
     padding: 20px 0;
@@ -11,7 +12,7 @@ header {
     }
 
     .logo {
-    display: flex;
+    display: none;
     align-items: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -44,3 +45,12 @@ nav {
         color: C78C19;
         text-decoration: underline;
     }
+/* Estilização para Tablets (telas medías)      */
+    @media screen and (max-width: 480px)  {
+        .logo
+           display: none;
+    }
+
+    /* Estilização para Desktop (telas maiores)    */
+     @media screen and (max-width: 1080px)  {
+}

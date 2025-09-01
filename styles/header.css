@@ -12,7 +12,7 @@ header {
     }
 
     .logo {
-    display: none;
+    display: flex;
     align-items: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -22,7 +22,11 @@ header {
     width: 90px;
     margin-right: 10px;
 }
-    
+
+.nome-empresa{
+display:flex
+}
+
 nav {
         position: static;
     }
@@ -45,12 +49,14 @@ nav {
         color: C78C19;
         text-decoration: underline;
     }
-/* Estilização para Tablets (telas medías)      */
-    @media screen and (max-width: 480px)  {
-        .logo
-           display: none;
-    }
 
-    /* Estilização para Desktop (telas maiores)    */
-     @media screen and (max-width: 1080px)  {
+ /* Estilização para Tablets (telas medías)      */
+ @media screen and (max-width: 480px)  {  
+    }
+    .nome-empresa{
+    display:inline;
+}
+
+/* Estilização para Desktop (telas maiores)    */
+@media screen and (max-width: 1080px)  {
 }

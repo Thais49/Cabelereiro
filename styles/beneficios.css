@@ -60,17 +60,11 @@
       flex-direction: row;
         gap: 20px;
         margin: 0 auto;
-      
-=======
-       gap: 20px;
-       margin: 0 auto;
->>>>>>> c2f7fbc99de4f153ed9bdaec8dae28e9625e1eaf
-    }
+}
 
     .imagembeneficios {
     width: 60%;
     }
-<<<<<<< HEAD
 
 }
    
@@ -82,7 +76,6 @@
         width: 560px;
     }
 }
-=======
+
 
 }
->>>>>>> c2f7fbc99de4f153ed9bdaec8dae28e9625e1eaf

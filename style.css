@@ -116,3 +116,21 @@ img ~ p {
         background-color: var(--cor-azul);
 
     }
+
+@media screen and (max-width: 480px) {
+       
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+}
+*/

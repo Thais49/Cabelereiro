@@ -53,7 +53,7 @@
         margin: 20px 0 20px;
         table-layout: fixed;
         text-align: center;
-    }
+}
 
     thead {
         background: #555555;
@@ -61,11 +61,11 @@
         background: var (--cor-cinzamédioaescuro);
         color: var (--cor-branco);
         font-weight: bold;
-    }
+}
 
     td,
     th {
         border: 1px solid #000000;
         border: var (--cor-preto);
         padding: 8px 15px;
-    }
+}
